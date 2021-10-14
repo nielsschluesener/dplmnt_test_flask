@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1> Iris Model </h1>
+
+        <form method="POST", action="{{url_for('home')}}">
+                Sepal length (cm): <input type="text", name="sepal_length", placeholder="number between 4 and 8"> <br>
+                Sepal width (cm): <input type="text", name="sepal_width", placeholder="number between 2 and 5"> <br>
+                Petal length (cm): <input type="text", name="petal_length", placeholder="number between 1 and 7"> <br>
+                Petal width (cm): <input type="text", name="petal_width", placeholder="number between 0 and 3"> <br> <br>
+                <input type = "submit", value = "make prediction">
+        </form>
+
+        <br>
+        <br>
+        <img src="static\petal_setal.png", style="width: 20vw">
+    </body>
+</html>

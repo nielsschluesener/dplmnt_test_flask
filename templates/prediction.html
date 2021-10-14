@@ -1,0 +1,33 @@
+<html>
+
+    <body>
+        
+         The model predicts:
+         <br>
+
+         {%if data ==0 %}
+            <p>Iris Setosa</p>
+         {%endif%}
+         {%if data ==1%}
+            <p>Iris Versicolour</p>
+         {%endif%}
+         {%if data ==2%}
+            <p>Iris Virginica</p>
+         {%endif%}
+
+         <br>
+         Here are the probabilities for the classes:
+         <br>
+         {{probabilities}}
+         
+
+    </body>
+
+    <br>
+    <br>
+    
+    <a href='/'>Go back and make another prediction!</a>
+
+</html>
+
+
